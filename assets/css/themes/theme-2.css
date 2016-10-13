@@ -37,10 +37,10 @@ header .navbar-collapse .navbar-right > li > a i {
   color: #fff !important;
 }
 header .navbar-collapse .navbar-right > li > a:hover, header .navbar-collapse .navbar-right > li > a:focus, header .navbar-collapse .navbar-right > li > a:active {
-  background: #ebebeb !important;
+  background: #367fa9 !important;
 }
 header .navbar-collapse .navbar-right > li.open > a {
-  background: #ebebeb !important;
+  background: #367fa9 !important;
 }
 header .navbar-collapse .navbar-right .dot-badge {
   border-color: #ffffff;
