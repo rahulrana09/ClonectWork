@@ -394,7 +394,7 @@ h5.over-title {
   font-size: 17px;
   padding-right: 15px;
   color: #c8c7cc;
-  border-right: 1px solid #aeacb4;
+  border-right: 1px solid transparent;
 }
 .navbar .navbar-header .sidebar-toggler:hover {
   color: #aeacb4;
@@ -7736,9 +7736,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .btn-transparent-grey {
   background: none;
-  border-color: rgba(200, 199, 204, 0.3);
-  border-width: 1px;
-  color: #c8c7cc !important;
+  color: #222d32 !important;
 }
 .btn-transparent-grey:hover, .btn-transparent-grey:focus, .btn-transparent-grey:active, .btn-transparent-grey.active {
   background-color: rgba(200, 199, 204, 0.1);
@@ -11164,10 +11162,12 @@ td.small-width {
 /*  Page Title
 /* ---------------------------------------------------------------------- */
 #page-title {
-  padding: 9px 0;
-  position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
+     padding: 9px 0;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
 }
 @media (max-width: 767px) {
   #page-title {
@@ -11399,4 +11399,8 @@ td.small-width {
     min-height: 1px;
     padding-right: 0px !important;
     padding-left: 0px !important;
+}
+
+.brand-color{
+  color:#3c8dbc;
 }
